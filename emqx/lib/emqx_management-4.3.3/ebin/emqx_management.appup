@@ -1,0 +1,3 @@
+{"4.3.3",
+ [{<<"4.3.[0-2]">>,[{restart_application,emqx_management}]},{<<".*">>,[]}],
+ [{<<"4.3.[0-2]">>,[{restart_application,emqx_management}]},{<<".*">>,[]}]}.
