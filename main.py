@@ -3,9 +3,10 @@ import tkinter as tk
 from paho.mqtt import client as mqtt_client
 import time
 
-broker = 'broker.emqx.io'
+# broker = 'broker.emqx.io'
+broker='10.206.225.110'
 port = 1883
-topic = '/python/mqtt_zxl'
+topic = '/python/mqtt_dhu_temperature'
 clinent_id = f'python-mqtt-{random.randint(0, 1000)}'
 
 
